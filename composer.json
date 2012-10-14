@@ -8,5 +8,11 @@
         "lespoilus/spyc": "dev-master",
         "php-activerecord/php-activerecord": "dev-master",
         "slim/slim": "*"
+    },
+    "repositories": {
+        "ethos_php-activerecord": {
+            "type": "vcs",
+            "url": "https://github.com/ethos-development/php-activerecord"
+        }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "hash": "a0d369b7f9cfd06219b98346d5c414d0",
+    "hash": "a2c33453b30183fc9406d4de882c5046",
     "packages": [
         {
             "name": "lespoilus/spyc",
@@ -49,25 +49,25 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/kla/php-activerecord",
-                "reference": "6f72eb7958e7dd18a85b374ee28477de748acbd8"
+                "url": "https://github.com/ethos-development/php-activerecord",
+                "reference": "205c996be9db595f6d0b85fad09da5ca5a6b372a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/kla/php-activerecord/zipball/6f72eb7958e7dd18a85b374ee28477de748acbd8",
-                "reference": "6f72eb7958e7dd18a85b374ee28477de748acbd8",
+                "url": "https://github.com/ethos-development/php-activerecord/zipball/205c996be9db595f6d0b85fad09da5ca5a6b372a",
+                "reference": "205c996be9db595f6d0b85fad09da5ca5a6b372a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
-            "time": "1343746290",
+            "time": "1350239194",
             "type": "library",
             "installation-source": "source",
             "autoload": {
-                "psr-0": {
-                    "ActiveRecord": "lib/"
-                }
+                "files": [
+                    "ActiveRecord.php"
+                ]
             },
             "license": [
                 "MIT"
@@ -75,9 +75,12 @@
             "description": "php-activerecord is an open source ORM library based on the ActiveRecord pattern.",
             "homepage": "http://www.phpactiverecord.org/",
             "keywords": [
-                "orm",
-                "activerecord"
-            ]
+                "activerecord",
+                "orm"
+            ],
+            "support": {
+                "source": "https://github.com/ethos-development/php-activerecord/tree/master"
+            }
         },
         {
             "name": "ruflin/Elastica",
