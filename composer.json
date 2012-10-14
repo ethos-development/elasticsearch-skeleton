@@ -1,0 +1,12 @@
+{
+    "config": {
+        "vendor-dir": "lib",
+        "bin-dir": "bin"
+    },
+    "require": {
+        "ruflin/Elastica": "*",
+        "lespoilus/spyc": "dev-master",
+        "php-activerecord/php-activerecord": "dev-master",
+        "slim/slim": "*"
+    }
+}

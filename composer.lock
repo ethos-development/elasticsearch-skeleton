@@ -1,0 +1,176 @@
+{
+    "hash": "a0d369b7f9cfd06219b98346d5c414d0",
+    "packages": [
+        {
+            "name": "lespoilus/spyc",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lespoilus/spyc.git",
+                "reference": "32276d2abb866ccbd83a6b12b2cb794a304f936e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/lespoilus/spyc/zipball/32276d2abb866ccbd83a6b12b2cb794a304f936e",
+                "reference": "32276d2abb866ccbd83a6b12b2cb794a304f936e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.1"
+            },
+            "time": "1348828608",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Spyc": "./"
+                }
+            },
+            "license": [
+                "MIT License"
+            ],
+            "authors": [
+                {
+                    "name": "mustangostang",
+                    "email": "vlad.andersen@gmail.com"
+                }
+            ],
+            "description": "A simple YAML loader/dumper class for PHP",
+            "homepage": "https://github.com/lespoius/spyc/",
+            "keywords": [
+                "yaml",
+                "zf2",
+                "yml",
+                "spyc"
+            ]
+        },
+        {
+            "name": "php-activerecord/php-activerecord",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kla/php-activerecord",
+                "reference": "6f72eb7958e7dd18a85b374ee28477de748acbd8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/kla/php-activerecord/zipball/6f72eb7958e7dd18a85b374ee28477de748acbd8",
+                "reference": "6f72eb7958e7dd18a85b374ee28477de748acbd8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "1343746290",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "ActiveRecord": "lib/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "php-activerecord is an open source ORM library based on the ActiveRecord pattern.",
+            "homepage": "http://www.phpactiverecord.org/",
+            "keywords": [
+                "orm",
+                "activerecord"
+            ]
+        },
+        {
+            "name": "ruflin/Elastica",
+            "version": "v0.19.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ruflin/Elastica",
+                "reference": "v0.19.8.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/ruflin/Elastica/zipball/v0.19.8.0",
+                "reference": "v0.19.8.0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2012-08-12 09:51:36",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Elastica": "lib/"
+                }
+            },
+            "license": [
+                "Apache 2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Ruflin",
+                    "homepage": "http://ruflin.com/"
+                }
+            ],
+            "description": "Elasticsearch Client",
+            "homepage": "http://ruflin.github.com/Elastica/",
+            "keywords": [
+                "client",
+                "search"
+            ]
+        },
+        {
+            "name": "slim/slim",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeguy/Slim",
+                "reference": "2.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/codeguy/Slim/zipball/2.1.0",
+                "reference": "2.1.0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2012-09-12 09:07:46",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Slim": "."
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "info@joshlockhart.com",
+                    "homepage": "http://www.joshlockhart.com/"
+                }
+            ],
+            "description": "Slim Framework, a PHP micro framework",
+            "homepage": "http://github.com/codeguy/Slim",
+            "keywords": [
+                "microframework",
+                "rest",
+                "router"
+            ]
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "lespoilus/spyc": 20,
+        "php-activerecord/php-activerecord": 20
+    }
+}
