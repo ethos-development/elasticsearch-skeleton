@@ -1,30 +1,30 @@
 {
-    "hash": "a2c33453b30183fc9406d4de882c5046",
+    "hash": "4b969ed5e7cce58863a4c8a2dd476f38",
     "packages": [
         {
             "name": "lespoilus/spyc",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/lespoilus/spyc.git",
-                "reference": "32276d2abb866ccbd83a6b12b2cb794a304f936e"
+                "url": "https://github.com/ethos-development/spyc",
+                "reference": "3aa5f6d773c7c45688921800e6b6143de3a31779"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/lespoilus/spyc/zipball/32276d2abb866ccbd83a6b12b2cb794a304f936e",
-                "reference": "32276d2abb866ccbd83a6b12b2cb794a304f936e",
+                "url": "https://github.com/ethos-development/spyc/zipball/3aa5f6d773c7c45688921800e6b6143de3a31779",
+                "reference": "3aa5f6d773c7c45688921800e6b6143de3a31779",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.1"
             },
-            "time": "1348828608",
+            "time": "1350274496",
             "type": "library",
             "installation-source": "source",
             "autoload": {
-                "psr-0": {
-                    "Spyc": "./"
-                }
+                "files": [
+                    "spyc.php"
+                ]
             },
             "license": [
                 "MIT License"
@@ -38,11 +38,14 @@
             "description": "A simple YAML loader/dumper class for PHP",
             "homepage": "https://github.com/lespoius/spyc/",
             "keywords": [
+                "spyc",
                 "yaml",
-                "zf2",
                 "yml",
-                "spyc"
-            ]
+                "zf2"
+            ],
+            "support": {
+                "source": "https://github.com/ethos-development/spyc/tree/master"
+            }
         },
         {
             "name": "php-activerecord/php-activerecord",

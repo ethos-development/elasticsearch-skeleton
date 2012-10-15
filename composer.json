@@ -13,6 +13,10 @@
         "ethos_php-activerecord": {
             "type": "vcs",
             "url": "https://github.com/ethos-development/php-activerecord"
+        },
+        "ethos_spyc": {
+            "type": "vcs",
+            "url": "https://github.com/ethos-development/spyc"
         }
     }
 }
